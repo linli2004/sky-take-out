@@ -112,6 +112,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         return new PageResult(total,record);
     }
 
+
     /**
      * 启用禁用员工账号
      * @param status
@@ -151,4 +152,5 @@ public class EmployeeServiceImpl implements EmployeeService {
 
         employeeMapper.update(employee);
     }
+
 }
